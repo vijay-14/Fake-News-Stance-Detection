@@ -1,6 +1,7 @@
 ***This file gives you information about the Authors and step by step explanation of the execution of the project***
 
 Team name: Evil Geniuses
+GIT-HUB link - https://github.com/vijay-14/Fake-News-Stance-Detection 
 
 Authors:
 
@@ -20,7 +21,7 @@ b) Hardware Requirements: RAM - 16 GB or higher, i5 7th Gen or higher processor 
    Estimated time to run the program if you have above mentioned hardware is about 1 Hour for each Model.
 
 c) Inorder to make this program work first read the INSTALL.txt and install the required softwares or libraries.
-   -> First run the runit.sh file from your command line and follow the instructions presented on the screen.
+   -> First run the runit.sh file from your command line using the command $./runit.sh and follow the instructions presented on the screen.
    -> We have presented 4 different models each in a separate python file. You can run all these files in command line after executing runit.sh and selecting respective number for the model presented in the output.
    -> Make sure that the files runit.sh, fnc_rf.py, fnc_tfidf.py, fnc_doc2vec.py, fnc_mlp.py, test_bodies.csv, test_stances_unlabeled.csv, train_bodies.csv and train_stances.csv are present in the same folder.
 
@@ -38,6 +39,8 @@ d) About our code and algorithm:
 e) Results: 
 
 The below mentioned results just specify Acuuracy and F1 scores for each class of all the models. We have listed more comprehensive results along with the confusion matrix in the documented paper. 
+
+Note: fnc_mlp.py gives better results than the other models. 
 
 Confusion Matrix of Baseline predictions on testing data:
 Accuracy: 72.22
