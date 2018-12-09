@@ -1,0 +1,14 @@
+***This text file gives you information about where our parts of code are taken from if any and also mention any papers that were implemented in this project***
+
+Author: Nikhil Reddy Pathuri
+
+1) Doc2Vec model.
+
+The code used in fnc_doc2vec.py for creating Doc2Vec vectors is taken from URL:https://medium.com/@mishra.thedeepak/doc2vec-simple-implementation-example-df2afbbfbad5
+
+Citation: Mishra, Deepak. "DOC2VEC Gensim Tutorial." Medium. March 17, 2018. Accessed December 09, 2018. https://medium.com/@mishra.thedeepak/doc2vec-simple-implementation-example-df2afbbfbad5.
+
+
+2) Our Model idea was motivated by the techniques presented in the paper about "Recruiting Neural Networks for the Fight Against Fake News by Richard Davis and CHris Proctor.
+
+Citation: Davis, R., & Proctor, C. (n.d.). Fake News, Real Consequences: Recruiting Neural Networks for the Fight Against Fake News. Retrieved December 08, 2018, from https://web.stanford.edu/class/cs224n/reports/2761239.pdf.

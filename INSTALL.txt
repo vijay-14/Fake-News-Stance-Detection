@@ -1,0 +1,33 @@
+***This file gives you information about the Softwares and Packages required to install to run the program***
+
+Author: Dilip Molugu
+
+Required Softwares:
+
+1) Python version 3.6 or Higher.
+Installation URL: https://www.python.org/downloads/
+
+2) Anaconda version 4.4 or Higher
+Installation URL: https://www.anaconda.com/download/
+
+Required additional Packages:
+
+1) Tensorflow (install if you do not have GPU)
+for pip command: pip install --upgrade tensorflow
+for conda: conda install tensorflow
+
+2) Tensorflow-GPU (install if you have a GPU)
+for pip command: pip install --upgrade tensorflow-gpu
+for conda: conda install tensorflow-gpu
+
+3) Keras
+for pip command: pip install --upgrade keras
+for conda: conda install keras
+
+4) Scikit-Learn
+for pip command: pip install -U scikit-learn
+for conda: conda install scikit-learn
+
+5) Gensim
+for pip command: pip install --upgrade gensim
+for conda: conda install -c conda-forge gensim

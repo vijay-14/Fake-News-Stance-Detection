@@ -1,0 +1,49 @@
+*** This file shows the baseline results and the results of our systems ***
+Author: Vijayasaradhi Muthavarapu
+Baseline:
+Model used: Random Forrest
+Predicted all the records as majority class which is Unrelated - 3
+
+Confusion Matrix of Baseline predictions on testing data:
+Accuracy: 72.22
+F1 scores      Class
+0.00		0- Agree
+0.00		1- Disagree
+0.00		2- Discuss
+0.84		3-Unrelated
+
+Our Model Results:
+CNN with tf-idf:
+Accuracy: 72.108
+F1 scores	Class
+0.00		0- Agree
+0.00		1- Disagree
+0.01		2- Discuss
+0.84		3-Unrelated
+
+CNN with Doc2vec:
+
+Accuracy: 72.13
+F1 scores	Class
+0.00		0- Agree
+0.00		1- Disagree
+0.00		2- Discuss
+0.84		3-Unrelated
+
+MLP with Under Sampling:
+
+Accuracy: 41.79
+F1 scores	Class
+0.12		0- Agree
+0.01		1- Disagree
+0.16		2- Discuss
+0.60		3-Unrelated
+
+CNN with Under Sampling:
+
+Accuracy: 41.21
+F1 scores	Class
+0.12		0- Agree
+0.02		1- Disagree
+0.20		2- Discuss
+0.58		3-Unrelated
